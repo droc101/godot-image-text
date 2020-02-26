@@ -6,6 +6,8 @@
 Charachter Set:
 ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890+ -=_:.!?@#$%^&*();,<>
 
+Please note that some symbols may not work (yet)
+
 Required Version of script: 1.1 (LATEST)
 
 Color: Black
