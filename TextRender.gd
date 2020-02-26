@@ -29,7 +29,17 @@ func _print(pos : Vector2, text : String):
 		if (i == "/"):
 			vcounter += 1
 			counter = -1
-		if (i != " " and i != "/"):
+			
+		if (i == ":"):
+			var tex = TextureRect.new()
+			tex.texture = load(font_path + "colon" + image_extension)
+			tex.rect_position.x = pos.x + counter*(letter_size + letter_spacing)
+			tex.rect_position.y = pos.y + vcounter*(letter_size + vertical_spacing)
+			tex.expand = true
+			tex.rect_size = Vector2(letter_size, letter_size)
+			add_child(tex)
+			counter += 1
+		if (i != " " and i != "/" and i != ":"):
 
 			var tex = TextureRect.new()
 			tex.texture = load(font_path + i.to_lower() + image_extension)
