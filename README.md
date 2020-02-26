@@ -1,6 +1,6 @@
 # Godot Multicolored Fonts
-A script that allows rendering of fonts with image files as the charachters. 
-A default font is included, but was thrown together in literally 5 minutes, so it is not very good. 
+A script that allows rendering of fonts with image files as the characters. 
+A preinstalled font is included but was thrown together in literally 5 minutes, so it is not very good. 
 
 Current Features:
  - All letters, space, and numbers (/ is used a newline)
@@ -9,7 +9,7 @@ Current Features:
  - Font Size
  - Image extension (E.G. ".png" or ".bmp")
 
-## Insallation
+## Installation
 Copy the .gd script and font folder into the res:// directory
 If you want, you can also copy over demo.tscn
 
@@ -22,6 +22,6 @@ Some symbols cannot be printed due to filename restrictions. Examples of theese 
 
 You DO NOT need to provide the space image.
 
-The reccomended size for the font is 16x16.
+The recommended size for the font is 16x16.
 
-Do not make it too big, and the minimum font size is the image size. Also make sure the images are all the same size.
+Do not make it too big, as the minimum font size is the image size. Also, make sure the images are all the same size.
