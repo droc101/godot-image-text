@@ -9,6 +9,10 @@ Current Features:
  - Font Size
  - Image extension (E.G. ".png" or ".bmp")
 
+## Insallation
+Copy the .gd script and font folder into the res:// directory
+If you want, you can also copy over demo.tscn
+
 ## Notes
 PNG is the reccomended file format, as it allows for transparency.
 ## Creating Custom Fonts
