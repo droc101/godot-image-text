@@ -15,7 +15,7 @@ export var vertical_spacing : int = 3
 
 export var image_extension : String = ".png"
 
-export var font_path : String = "res://font/"
+export var font_path : String = "res://pixel-sans-serif/"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
