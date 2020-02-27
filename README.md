@@ -1,6 +1,9 @@
 # Godot Multicolored Fonts
 A script that allows rendering of fonts with image files as the characters. 
-A preinstalled font is included but was thrown together in literally 5 minutes, so it is not very good. 
+
+## Fonts
+Font #1 (font folder): A very bad font...
+Font #2 (pixel-sans-serif folder) A 16x16 sans-serif font
 
 Current Features:
  - All letters, space, and numbers (/ is used a newline)
