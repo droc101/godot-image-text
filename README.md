@@ -1,4 +1,4 @@
-# Godot Multicolored Fonts
+# Godot Multicolored Fonts (Version 1.1)
 A script that allows rendering of fonts with image files as the characters. 
 
 ## Fonts
